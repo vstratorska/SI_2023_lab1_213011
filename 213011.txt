@@ -1,0 +1,77 @@
+4.mkdir SI_2023_lab1_213011                                                           со командата mkdir е направен директориумот SI_2023_lab1_213011
+cd SI_2023_lab1_213011                                                                со командата cd влегуваме во директориумот
+git init                                                                              со командата git init го иницијализираме Git во директориумот
+
+5.git remote add origin https://github.com/vstratorska/SI_2023_lab1_213011.git        со командата git remote add origin се поврзува локалниот репозиториум со оддалечениот репозиториум
+
+6.notepad README.md                                                                   со командата notepad README.md  се креира README.md во SI_2023_lab1_213011 и датотеката се отвара за да ја менуваме
+git add .                                                                             со командата git add . сите нови или модифицирани фајлови во работниот директориум ги ставаме на сцена 
+git commit -m "Initial commit"                                                        со командата git commit -m правиме комит со порака "Initial commit"
+
+7.notepad SILab1.java                                                                 со командата notepad SILab1.java се креира SILab1.java во SI_2023_lab1_213011 и датотеката се отвара за да ја менуваме
+git add .                                                                             со командата git add . сите нови или модифицирани фајлови во работниот директориум ги ставаме на сцена 
+git commit -m "Add java class"                                                        со командата git commit -m правиме комит со порака "Add java class"
+
+8.git pull                                                                            со командата git pull се превзема содржината од оддалечениот репозиториум со кој сме поврзани
+git push -u origin master                                                             со командата git push -u origin master ги прикачуваме промените од локалната master гранка на оддалечениот репозиториум
+
+9. git branch bug1                                                                    со командата git branch bug1 се отвара нова гранка bug1 на master
+   git branch bug2                                                                    со командата git branch bug2 се отвара нова гранка bug2 на master
+   git branch bug3                                                                    со командата git branch bug3 се отвара нова гранка bug3 на master
+
+10.git checkout bug1                                                                  со командата git checkout bug1 се префрламе на гранката bug1
+
+11.notepad SILab1.java                                                                со командата notepad SILab1.java се отвара датотеката SILab1.java и ја поправаме грешката во for циклусот
+git add SILab1.java                                                                   со командата git add SILab1.java фајлот SILab1.java го ставаме на сцена
+git commit -m "Fix wrong loop for reading"                                            со командата git commit -m правиме комит со порака "Fix wrong loop for reading"
+
+12.git checkout bug2                                                                  со командата git checkout bug2 се префрламе на гранката bug2
+
+13.notepad SILab1.java                                                                со командата notepad SILab1.java се отвара датотеката SILab1.java и ја поправаме грешката во функцијата filterOddNumbers                                                              
+git add SILab1.java                                                                   со командата git add SILab1.java фајлот SILab1.java го ставаме на сцена
+git commit -m "Fix wrong condition in filterOddNumbers"                               со командата git commit -m правиме комит со порака "Fix wrong condition in filterOddNumbers" 
+
+14.git checkout bug3                                                                  со командата git checkout bug3 се префрламе на гранката bug3
+
+15.notepad SILab1.java                                                                со командата notepad SILab1.java се отвара датотеката SILab1.java и ја поправаме грешката во функцијата sumEvenNumbers
+git add SILab1.java                                                                   со командата git add SILab1.java фајлот SILab1.java го ставаме на сцена
+git commit -m "Fix method sumEvenNumbers"                                             со командата git commit -m правиме комит со порака "Fix method sumEvenNumbers"
+
+16.git pull                                                                           со командата git pull се превзема содржината од оддалечениот репозиториум
+git checkout bug1                                                                     со командата git checkout bug1 се префрламе на гранката bug1                                                                 
+git push --set-upstream origin bug1                                                   со командата git push --set-upstream origin bug1 ја прикачуваме гранката bug1 на оддалечениот репозиториум
+git pull                                                                              со командата git pull се превзема содржината од оддалечениот репозиториум
+git checkout bug2                                                                     со командата git checkout bug2 се префрламе на гранката bug2
+git push --set-upstream origin bug2                                                   со командата git push --set-upstream origin bug2 ја прикачуваме гранката bug2 на оддалечениот репозиториум
+git pull                                                                              со командата git pull се превзема содржината од оддалечениот репозиториум
+git checkout bug3                                                                     со командата git checkout bug3 се префрламе на гранката bug3
+git push --set-upstream origin bug3                                                   со командата git push --set-upstream origin bug3 ја прикачуваме гранката bug3 на оддалечениот репозиториум
+
+17.git checkout master                                                                со командата git checkout master се префрламе на гранката master
+
+18.git merge bug1                                                                     со командата git merge bug1 ја спојуваме гранката bug1 кон master (нема конфликти, ff-strategy)
+
+19.git pull                                                                           со командата git pull се превзема содржината од оддалечениот репозиториум
+git push -u origin master                                                             со командата git push -u origin master ги прикачуваме промените од локалната master гранка на оддалечениот репозиториум
+
+20.git merge bug2                                                                     со командата git merge bug2 ја спојуваме гранката bug2 кон master (се појавува конфликт и е решен со помош на merge commit, recursive strategy)
+
+21.git pull                                                                           со командата git pull се превзема содржината од оддалечениот репозиториум
+git push -u origin master                                                             со командата git push -u origin master ги прикачуваме промените од локалната master гранка на оддалечениот репозиториум
+
+22.git checkout bug3                                                                  со командата git checkout bug3 се префрламе на гранката bug3
+
+23.git rebase master                                                                  со командата git rebase master сите комити што се во bug3, а не е на master се ставаат во temp area, потоа сите комити што се на master а не на bug3 се префрла на bug3 и на крај се што имаме во temp area повторно се враќа на bug3
+
+24.git checkout master                                                                со командата git checkout master се префрламе на гранката master
+
+25.git merge bug3                                                                     со командата git merge bug3 ја спојуваме гранката bug3 кон master (нема конфликти бидејќи претходно беше направен rebase кон master, ff-strategy)
+
+26.git pull                                                                           со командата git pull се превзема содржината од оддалечениот репозиториум
+git push -u origin master                                                             со командата git push -u origin master ги прикачуваме промените од локалната master гранка на оддалечениот репозиториум
+
+27.git add .                                                                          со командата git add . сите нови или модифицирани фајлови во работниот директориум ги ставаме на сцена
+git commit -m "Final commit"                                                          со командата git commit -m правиме комит со порака "Final commit"
+
+28.git pull                                                                           со командата git pull се превзема содржината од оддалечениот репозиториум
+git push -u origin master                                                             со командата git push -u origin master ги прикачуваме промените од локалната master гранка на оддалечениот репозиториум

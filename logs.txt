@@ -1,0 +1,121 @@
+Master branch logs
+
+commit ca9e19741864518bfc55cfe376d1908a0b6d0f6c (HEAD -> master, origin/master, bug3)
+Author: Viktorija Stratorska <viktorija.stratorska@gmail.com>
+Date:   Mon Mar 27 19:43:42 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit f19d5b6201422a588d9e823b89ef8cca37158d45
+Merge: eee8b28 63a29c7
+Author: Viktorija Stratorska <viktorija.stratorska@gmail.com>
+Date:   Mon Mar 27 20:15:52 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 63a29c71e3796a59730354e5070053b46c2b6bd7 (origin/bug2, bug2)
+Author: Viktorija Stratorska <viktorija.stratorska@gmail.com>
+Date:   Mon Mar 27 19:34:16 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit eee8b28f39879fdad654efbacae1786710ca46b3 (origin/bug1, bug1)
+Author: Viktorija Stratorska <viktorija.stratorska@gmail.com>
+Date:   Mon Mar 27 19:24:52 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 6a891fbf7ddf3f32f4990a85ee9113e7db2505a4
+Author: Viktorija Stratorska <viktorija.stratorska@gmail.com>
+Date:   Mon Mar 27 15:47:20 2023 +0200
+
+    Add java class
+
+commit 5a4ab876a8d7d30274ba5612840be6882cf2072f
+Author: Viktorija Stratorska <viktorija.stratorska@gmail.com>
+Date:   Mon Mar 27 15:11:49 2023 +0200
+
+    Initial commit
+
+================================================================================================================================
+Bug1 logs
+
+commit eee8b28f39879fdad654efbacae1786710ca46b3 (HEAD -> bug1, origin/bug1)
+Author: Viktorija Stratorska <viktorija.stratorska@gmail.com>
+Date:   Mon Mar 27 19:24:52 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 6a891fbf7ddf3f32f4990a85ee9113e7db2505a4
+Author: Viktorija Stratorska <viktorija.stratorska@gmail.com>
+Date:   Mon Mar 27 15:47:20 2023 +0200
+
+    Add java class
+
+commit 5a4ab876a8d7d30274ba5612840be6882cf2072f
+Author: Viktorija Stratorska <viktorija.stratorska@gmail.com>
+Date:   Mon Mar 27 15:11:49 2023 +0200
+
+    Initial commit
+
+
+================================================================================================================================
+Bug2 logs
+
+commit 63a29c71e3796a59730354e5070053b46c2b6bd7 (HEAD -> bug2, origin/bug2)
+Author: Viktorija Stratorska <viktorija.stratorska@gmail.com>
+Date:   Mon Mar 27 19:34:16 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 6a891fbf7ddf3f32f4990a85ee9113e7db2505a4
+Author: Viktorija Stratorska <viktorija.stratorska@gmail.com>
+Date:   Mon Mar 27 15:47:20 2023 +0200
+
+    Add java class
+
+commit 5a4ab876a8d7d30274ba5612840be6882cf2072f
+Author: Viktorija Stratorska <viktorija.stratorska@gmail.com>
+Date:   Mon Mar 27 15:11:49 2023 +0200
+
+    Initial commit
+
+================================================================================================================================
+Bug3 logs
+
+commit ca9e19741864518bfc55cfe376d1908a0b6d0f6c (HEAD -> bug3, origin/master, master)
+Author: Viktorija Stratorska <viktorija.stratorska@gmail.com>
+Date:   Mon Mar 27 19:43:42 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit f19d5b6201422a588d9e823b89ef8cca37158d45
+Merge: eee8b28 63a29c7
+Author: Viktorija Stratorska <viktorija.stratorska@gmail.com>
+Date:   Mon Mar 27 20:15:52 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 63a29c71e3796a59730354e5070053b46c2b6bd7 (origin/bug2, bug2)
+Author: Viktorija Stratorska <viktorija.stratorska@gmail.com>
+Date:   Mon Mar 27 19:34:16 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit eee8b28f39879fdad654efbacae1786710ca46b3 (origin/bug1, bug1)
+Author: Viktorija Stratorska <viktorija.stratorska@gmail.com>
+Date:   Mon Mar 27 19:24:52 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 6a891fbf7ddf3f32f4990a85ee9113e7db2505a4
+Author: Viktorija Stratorska <viktorija.stratorska@gmail.com>
+Date:   Mon Mar 27 15:47:20 2023 +0200
+
+    Add java class
+
+commit 5a4ab876a8d7d30274ba5612840be6882cf2072f
+Author: Viktorija Stratorska <viktorija.stratorska@gmail.com>
+Date:   Mon Mar 27 15:11:49 2023 +0200
+
+    Initial commit
